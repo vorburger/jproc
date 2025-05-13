@@ -413,3 +413,8 @@ assertEquals("echo 'Hello World!'", echoBuilder.getProcString());
 ProcResult result = echoBuilder.run();
 assertEquals("Hello World!\n", result.getOutputString());
 ~~~
+
+Related
+-------
+
+[`vorburger.exec`](https://github.com/vorburger/ch.vorburger.exec) is a similar project.
